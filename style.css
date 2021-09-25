@@ -38,8 +38,8 @@
     display: flex;
     background-size:cover; */
     background: linear-gradient(rgb(61, 255, 61), rgb(255, 255, 86));
-    width: 90vmin;
-    height: 92vmin;
+    width: 85vmin;
+    height: 87vmin;
     border: 20px solid rgb(7, 83, 7);
     display: grid;
     grid-template-rows: repeat(18, 1fr);
@@ -68,7 +68,7 @@
     border-radius: 50%;
 }
 img{
-    /* margin-top: 10px; */
+    margin-top: 5px; 
     margin-bottom: 550px;
     width: 13%;
     height: 13%;
