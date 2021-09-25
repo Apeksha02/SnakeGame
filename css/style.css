@@ -33,36 +33,40 @@
 }
 
 #board{
-    /* background-image: url(/img/bg.jpg);
+    /* background-image: url(/img/board.jpg);
     background-repeat: no-repeat;
     display: flex;
     background-size:cover; */
-    background: linear-gradient(rgb(124, 240, 124), rgb(255, 255, 102));
+    background: linear-gradient(rgb(61, 255, 61), rgb(255, 255, 86));
     width: 90vmin;
     height: 92vmin;
-    border: 2px solid black;
+    border: 20px solid rgb(7, 83, 7);
     display: grid;
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(18, 1fr);
     border-radius: 10px;
+    margin-right: 250px;
     /* box-shadow: 5px 5px green; */
 }
 
 .head{
-    background: linear-gradient(rgb(255, 136, 136), rgb(228, 228, 129));
-    border: 2px solid rgb(34, 4, 34); 
+    background: greenyellow;
+    border: 2px solid rgb(255, 255, 255); 
     transform: scale(1.02);
-    border-radius: 9px;
+    border-radius: 20px;
 }
 
 .snake{
-    background-color: purple;
-    border: .25vmin solid white;
+    background-color: green;
+    border: .25vmin solid black;
     border-radius: 12px;
 }
 
 .food{
-    background: linear-gradient(red, purple);
-    border: .25vmin solid black;
-    border-radius: 8px;
+    background:linear-gradient(red, purple);
+    /* border: .25vmin solid black; */
+    border-radius: 50%;
+}
+img{
+    margin-bottom: 650px;
 }
