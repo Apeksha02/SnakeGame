@@ -68,7 +68,8 @@
     border-radius: 50%;
 }
 img{
+    margin-top: 10px;
     margin-bottom: 550px;
-    width: 13%;
-    height: 13%;
+    width: 10%;
+    height: 10%;
 }
