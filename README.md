@@ -11,4 +11,4 @@ Technologies used -
 2. CSS
 3. JS
 
-
+You can play this game here - https://apeksha02.github.io/SnakeGame/
